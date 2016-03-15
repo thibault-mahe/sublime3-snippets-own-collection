@@ -4,7 +4,7 @@ Various snippets for Sublime Text 3.
 
 ## Bootstrap
 
-[`carousel`]()
+[`carousel`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/carousel.sublime-snippet)
 
 ```
 	<div id="carousel-id" class="carousel slide" data-ride="carousel">
@@ -50,7 +50,7 @@ Various snippets for Sublime Text 3.
 	</div>
 ```
 
-[`forminput`]()
+[`forminput`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/forminput.sublime-snippet)
 
 ```
 	<div class="form-group">
@@ -59,7 +59,7 @@ Various snippets for Sublime Text 3.
 	</div>
 ```
 
-[`formselect`]()
+[`formselect`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/formselect.sublime-snippet)
 
 ```
 	<div class="form-group">
@@ -70,7 +70,7 @@ Various snippets for Sublime Text 3.
 	</div>
 ```
 
-[`formtextarea`]()
+[`formtextarea`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/formtextarea.sublime-snippet)
 
 ```
 	<div class="form-group">
@@ -79,7 +79,7 @@ Various snippets for Sublime Text 3.
 	</div>
 ```
 
-[`modal`]()
+[`modal`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/modal.sublime-snippet)
 
 ```
 	<a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a>
@@ -101,7 +101,7 @@ Various snippets for Sublime Text 3.
 	</div>
 ```
 
-[`navbar`]()
+[`navbar`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/navbar.sublime-snippet)
 
 ```
 	<nav class="navbar navbar-default" role="navigation">
@@ -131,7 +131,7 @@ Various snippets for Sublime Text 3.
 	</nav>
 ```
 
-[makecolmixin]()
+[makecolmixin](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/makecolmixin-snippet)
 
 ```
 @mixin make-eight-column($gutter: $grid-gutter-width, $breakpoint: $screen-sm-min) {
@@ -149,7 +149,7 @@ Various snippets for Sublime Text 3.
 
 ## HTML
 
-[skipnav]()
+[skipnav](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/html/skipnav.sublime-snippet)
 
 ```
 	<div class="skip-nav">
@@ -161,7 +161,7 @@ Various snippets for Sublime Text 3.
 	</div>
 ```
 
-[tablefull]()
+[tablefull](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/html/tablefull.sublime-snippet)
 
 ```
 	<table>
@@ -182,7 +182,7 @@ Various snippets for Sublime Text 3.
 
 ## JavaScript
 
-[ifun]()
+[ifun](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/javaScript/ifun.sublime-snippet)
 
 ```
 	;(function() {
@@ -191,7 +191,7 @@ Various snippets for Sublime Text 3.
 	}());
 ```
 
-[ifor]()
+[ifor](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/javaScript/ifor.sublime-snippet)
 
 ```
 	for (var i = 0, len = arr.length; i < len; i++) {
@@ -199,7 +199,7 @@ Various snippets for Sublime Text 3.
 	}
 ```
 
-[module]()
+[module](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/javaScript/module.sublime-snippet)
 
 ```
 	var moduleName = (function() {
@@ -212,7 +212,7 @@ Various snippets for Sublime Text 3.
 	}());
 ```
 
-[dynamictextarea]()
+[dynamictextarea](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/javaScript/dynamictextarea.sublime-snippet)
 
 ```
 	function elasticArea() {
@@ -235,7 +235,7 @@ Various snippets for Sublime Text 3.
 	elasticArea();
 ```
 
-[dynamicheader]()
+[dynamicheader](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/javaScript/dynamicheader.sublime-snippet)
 
 ```
 function hasScrolled() {
@@ -263,7 +263,7 @@ function hasScrolled() {
 	}, 250);
 ```
 
-[smoothscroll]()
+[smoothscroll](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/javaScript/smotthscroll.sublime-snippet)
 
 ```
 // Smooth Scroll
@@ -283,7 +283,7 @@ function hasScrolled() {
 
 ## React
 
-[reacthtml]()
+[reacthtml](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/react/reacthtml.sublime-snippet)
 
 ```
 <!DOCTYPE html>
@@ -308,7 +308,7 @@ function hasScrolled() {
 	</html>
 ```
 
-[reactclass]()
+[reactclass](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/react/reactclass.sublime-snippet)
 
 ```
 var HelloWorld = React.createClass({
@@ -324,7 +324,7 @@ var HelloWorld = React.createClass({
 
 ## Web Components
 
-[polymerhtml]()
+[polymerhtml](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/webComponents/polymerhtml.sublime-snippet)
 
 ```
 <!doctype html>
@@ -350,7 +350,7 @@ var HelloWorld = React.createClass({
 	</html>
 ```
 
-[polymerelement]()
+[polymerelement](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/webComponents/polymerelement.sublime-snippet)
 
 ```
 <dom-module id="element-name">
