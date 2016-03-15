@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+@mixin make-${1:mixin-name}-column(\$gutter: \$grid-gutter-width, \$breakpoint: \$screen-sm-min) {
+  position: relative;
+  min-height: 1px;
+  padding-left:  ($gutter / 2);
+  padding-right: ($gutter / 2);
+
+  @media (min-width: \$breakpoint) {
+    float: left;
+    width: percentage((1 / ${2:mixin-col}));
+  }
+}
+]]></content>
+	<tabTrigger>makecolmixin</tabTrigger>
+</snippet>

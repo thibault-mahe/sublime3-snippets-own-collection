@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<label for="">${1:label}</label>
+	<select name="${2}" id="input${1/(\w+)/\u\1/g}" class="form-control">
+		<option value="">${3}</option>
+	</select>
+</div>
+]]></content>
+	<tabTrigger>formselect</tabTrigger>
+</snippet>

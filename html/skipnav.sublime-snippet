@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="skip-nav">
+	<ul>
+		<li><a href="#navigation">Aller au menu</a></li>
+		<li><a href="#content" accesskey="s">Aller au contenu</a></li>
+		<li><a href="#search" accesskey="4">Aller à la recherche</a></li>
+	</ul>
+</div>
+]]></content>
+	<tabTrigger>skipnav</tabTrigger>
+</snippet>

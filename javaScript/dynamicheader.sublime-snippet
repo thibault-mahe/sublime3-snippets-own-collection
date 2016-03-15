@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+function hasScrolled() {
+	var scrollTop = \$(window).scrollTop();
+	if (Math.abs(lastScrollTop - scrollTop) <= scrollDelta)
+		return;
+	if (scrollTop > lastScrollTop && scrollTop > headerHeight) {
+		\$header.addClass('header-scroll-down');
+	}
+	else if (scrollTop + \$(window).height() < \$(document).height()) {
+		\$header.removeClass('header-scroll-down');
+	}
+	lastScrollTop = scrollTop;
+}
+
+\$(window).on('scroll', function() {
+	didScroll = true;
+});
+
+setInterval(function() {
+	if (didScroll) {
+		hasScrolled();
+		didScroll = false;
+	}
+}, 250);]]></content>
+	<tabTrigger>dynamicheader</tabTrigger>
+</snippet>

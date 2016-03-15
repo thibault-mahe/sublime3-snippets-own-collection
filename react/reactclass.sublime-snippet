@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+var HelloWorld = React.createClass({
+	render: function(){
+		return (
+			<h1>Hello, world!</h1>
+		);
+	}
+});
+
+React.render(<HelloWorld />, document.getElementById('example'));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reactclass</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

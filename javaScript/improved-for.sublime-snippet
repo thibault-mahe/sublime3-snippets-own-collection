@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+for (var i = 0, len = ${1:arr}.length; i < len; i++) {
+	${2:$1[i]}$3
+}]]></content>
+	<tabTrigger>ifor</tabTrigger>
+</snippet>

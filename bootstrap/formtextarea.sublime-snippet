@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<label for="">${4:label}</label>
+	<textarea name="${1}" id="input${1/(\w+)/\u\1/g}" class="form-control" rows="${2:3}">${4}</textarea>
+</div>
+]]></content>
+	<tabTrigger>formtextarea</tabTrigger>
+</snippet>

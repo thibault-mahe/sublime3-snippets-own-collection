@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+function elasticArea() {
+	\$('.js-elasticArea').each(function(index, element) {
+		var \$elasticElement = \$(element),
+			delta = parseInt(\$elasticElement.css('paddingBottom'), 10) + parseInt(\$elasticElement.css('paddingTop'), 10) || 0,
+			elasticElement = element,
+			initialHeight = initialHeight || \$elasticElement.height();
+
+		function resize() {
+			\$elasticElement.height(initialHeight);
+			\$elasticElement.height(elasticElement.scrollHeight - delta);
+		}
+
+		\$elasticElement.on('input change keyup', resize);
+		resize();
+	});
+
+}
+elasticArea();]]></content>
+	<tabTrigger>dynamictextarea</tabTrigger>
+</snippet>
