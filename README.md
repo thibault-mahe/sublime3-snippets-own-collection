@@ -2,6 +2,10 @@
 
 Various snippets for Sublime Text 3.
 
+Copy the folder in your Sublie Text package folder, for instance :
+
+`cp -r  sublime-snippets /Users/johndoe/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sublime-snippets/`
+
 ## Bootstrap
 
 [`carousel`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/carousel.sublime-snippet)
