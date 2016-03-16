@@ -15,7 +15,7 @@ Various snippets for Sublime Text 3.
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<div class="item">
-				<img alt="" src="https://www.fillmurray.com/900/500">
+				<img alt="" src="https://www.fillmurray.com/600/400">
 				<div class="container">
 					<div class="carousel-caption">
 						<p>test</p>
@@ -23,7 +23,7 @@ Various snippets for Sublime Text 3.
 				</div>
 			</div>
 			<div class="item">
-				<img alt="" src="https://www.fillmurray.com/900/500">
+				<img alt="" src="https://www.placecage.com/600/400">
 				<div class="container">
 					<div class="carousel-caption">
 						<p>test</p>
@@ -31,7 +31,7 @@ Various snippets for Sublime Text 3.
 				</div>
 			</div>
 			<div class="item active">
-				<img alt="" src="https://www.fillmurray.com/900/500">
+				<img alt="" src="http://www.stevensegallery.com//600/400">
 				<div class="container">
 					<div class="carousel-caption">
 						<p>test</p>
