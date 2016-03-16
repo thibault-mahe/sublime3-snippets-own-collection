@@ -2,7 +2,7 @@
 
 Various snippets for Sublime Text 3.
 
-Copy the folder in your Sublie Text package folder, for instance :
+Copy the folder in your Sublime Text package folder, for instance :
 
 `cp -r  sublime-snippets /Users/johndoe/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sublime-snippets/`
 
