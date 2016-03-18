@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+	<div class="form-group">
+		<label class="form-label">Label</label>
+		<input class="radio" type="radio" id="radio-answer-1" name="radio-input" value="1">
+		<label for="radio-answer-1">Radio option 1</label>
+	</div>
+	<div class="form-group">
+		<input class="radio" type="radio" id="radio-answer-2" name="radio-input" value="2">
+		<label for="radio-answer-2">Radio option 2</label>
+	</div>
+]]></content>
+	<tabTrigger>formradio</tabTrigger>
+</snippet>

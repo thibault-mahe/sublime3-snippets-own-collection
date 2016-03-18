@@ -83,6 +83,73 @@ Copy the folder in your Sublime Text package folder, for instance :
 	</div>
 ```
 
+[`formcheckbox`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/formcheckbox.sublime-snippet)
+
+```
+	<div class="form-group">
+		<label class="form-label">Label</label>
+		<input class="checkbox" type="checkbox" id="checkbox-sample-1" name="checkbox-sample-1">
+		<label for="checkbox-sample-1">Checkbox label sample 1</label>
+	</div>
+```
+
+[`formradio`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/formradio.sublime-snippet)
+
+```
+	<div class="form-group">
+		<label class="form-label">Label</label>
+		<input class="radio" type="radio" id="radio-answer-1" name="radio-input" value="1">
+		<label for="radio-answer-1">Radio option 1</label>
+	</div>
+	<div class="form-group">
+		<input class="radio" type="radio" id="radio-answer-2" name="radio-input" value="2">
+		<label for="radio-answer-2">Radio option 2</label>
+	</div>
+```
+
+[`csscheckbox`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/csscheckbox.sublime-snippet)
+
+```
+.checkbox {
+	&:not(:checked),
+	&:checked {
+		position: absolute;
+		left: -9999px;
+		& + label {
+			position: relative;
+			cursor: pointer;
+			line-height: 16px;
+			text-transform: lowercase;
+			padding: 0 20px 0 45px;
+			color: black;
+			font-size: $font-size-small;
+			font-weight: 400;
+			&:first-letter {
+				text-transform: uppercase;
+			}
+			&:before {
+				position: absolute;
+				left: 20px;
+				width: 16px;
+				height: 16px;
+				border-radius: 50%;
+				border: 1px solid black;
+				@include transition(background);
+			}
+		}
+	}
+	&:not(:checked) + label:before {
+		content: ' ';
+		background-color: white;
+	}
+	&:checked + label:before {
+		content: ' ';
+		background: green;
+		border-color: green;
+	}
+}
+```
+
 [`modal`](https://github.com/tibomahe/sublime3-snippets-own-collection/blob/master/bootstrap/modal.sublime-snippet)
 
 ```

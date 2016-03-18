@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+.checkbox {
+	&:not(:checked),
+	&:checked {
+		position: absolute;
+		left: -9999px;
+		& + label {
+			position: relative;
+			cursor: pointer;
+			line-height: 16px;
+			text-transform: lowercase;
+			padding: 0 20px 0 45px;
+			color: black;
+			font-size: $font-size-small;
+			font-weight: 400;
+			&:first-letter {
+				text-transform: uppercase;
+			}
+			&:before {
+				position: absolute;
+				left: 20px;
+				width: 16px;
+				height: 16px;
+				border-radius: 50%;
+				border: 1px solid black;
+				@include transition(background);
+			}
+		}
+	}
+	&:not(:checked) + label:before {
+		content: ' ';
+		background-color: white;
+	}
+	&:checked + label:before {
+		content: ' ';
+		background: green;
+		border-color: green;
+	}
+}
+]]></content>
+	<tabTrigger>csscheckbox</tabTrigger>
+</snippet>

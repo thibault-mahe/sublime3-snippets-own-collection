@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+	<div class="form-group">
+		<label class="form-label">Label</label>
+		<input class="checkbox" type="checkbox" id="checkbox-sample-1" name="checkbox-sample-1">
+		<label for="checkbox-sample-1">Checkbox label sample 1</label>
+	</div>
+]]></content>
+	<tabTrigger>formcheckbox</tabTrigger>
+</snippet>
